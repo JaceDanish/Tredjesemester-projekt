@@ -1,0 +1,9 @@
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\bin\Debug\netcoreapp3.1\ClassLib.deps.json
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\bin\Debug\netcoreapp3.1\ClassLib.dll
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\bin\Debug\netcoreapp3.1\ClassLib.pdb
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\obj\Debug\netcoreapp3.1\ClassLib.csprojAssemblyReference.cache
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\obj\Debug\netcoreapp3.1\ClassLib.AssemblyInfoInputs.cache
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\obj\Debug\netcoreapp3.1\ClassLib.AssemblyInfo.cs
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\obj\Debug\netcoreapp3.1\ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\obj\Debug\netcoreapp3.1\ClassLib.dll
+C:\Users\janni\source\repos\Tredjesemesterprojekt\Application\ClassLib\obj\Debug\netcoreapp3.1\ClassLib.pdb

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <title>Outdoor temps</title>
+</head>
+
+
+<body>
+<div id="app">
+    <div id="ronOut" class="jumbotron" style="background-color: rgba(0, 224, 253, 0.596); text-align: center;">
+        <h1>Measurement App</h1>
+    </div>
+
+    <div class="row" style="margin: 0px 0px 0px 0px">
+        <div class="col-md-2">
+            <div class="vertical-menu">
+                <a href="index.htm">Indendørs temperatur</a>
+                <a href="Outdoor.html">Udendørs temperatur</a>
+                <a href="Temps.html">Tidligere målte temperature</a>
+                <button type="button" class="btn btn-secondary m-2" @click="ColorShiftOut">Farveblind?</button>
+            </div>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 20px">
+            <div id="warningOut" style="visibility: hidden; background: yellow">
+                <p>Warning</p>
+                <p>{{Message}}</p>
+            </div>
+            <div class="thermometer mx-auto" style="width: 50px">
+                <div class="stem">
+                    <div id="tempIDOut" class="stem-perct"></div>
+                </div>
+                <div id="bulpIDOut" class="bulb"></div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="container">
+                <h1>Outdoor temps</h1>
+                <table class="table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Temperatur in Celcuis</th>
+                            <th>Temperatur in Fahrenheit</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>{{celciusOutdoor}}</td>
+                        <td>{{fahrenheitOutdoor}}</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="bundle.js"></script>
+</body>
+
+</html>
